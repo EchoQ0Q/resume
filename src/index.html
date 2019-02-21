@@ -15,7 +15,7 @@
 <main class="content">
 
   <!--基本信息-->
-  <header class="content-hd">
+  <div class="content-hd">
     <section class="title">
       <div class="name">
         <h1>张曌夏</h1>
@@ -68,193 +68,207 @@
         </li>
       </ul>
     </section>
-  </header>
+  </div>
 
   <div class="content-bd">
-      <section class="practice">
-        <header class="section-hd">
-          <span class="section-title-l"></span>
-          <h2 class="section-title">经历</h2>
-          <span class="section-title-r"></span>
-        </header>
-        <div class="section-bd">
+      <div class="content-left">
+        <section class="project">
+          <header class="section-hd">
+            <span class="section-title-l"></span>
+            <h2 class="section-title">项目</h2>
+            <span class="section-title-r"></span>
+          </header>
+          <div class="section-bd">
+            以下是我的工作项目与总结：
+            <div class="item">
+              <header class="item-hd">
+                <a class="btn" href="javascript:;">图上作战项目</a>
+              </header>
+              <div class="item-bd">
+                <ul>
+                  <li>采取前后端分离开发，基于开源GIS组件实现的类似百度地图系统功能。</li>
+                  <li>技术栈：jQuery + gulp + requireJS + template + lodash </li>
+                </ul>
+              </div>
+            </div>
+  
+            <div class="item">
+              <header class="item-hd">
+                <a class="btn">数据碰撞项目</a>
+              </header>
+              <div class="item-bd">
+                <ul>
+                  <li>采取前后端分离开发的流程图数据管理系统。</li>
+                  <li>基于开源jsPlumb组件封装了图组件，实现算子拖拽上图碰撞、缩略图、流程图布局等交互功能。</li>
+                  <li>
+                      技术栈：jQuery + gulp + requireJS + template + lodash + svg
+                  </li>
+                </ul>
+              </div>
+            </div>
+  
+            <div class="item">
+              <header class="item-hd">
+                <a class="btn">关系分析项目</a>
+              </header>
+              <div class="item-bd">
+                <ul>
+                  <li>采取前后端分离开发的关系图分析系统。</li>
+                  <li>结合react技术栈，基于开源组件Cytoscape开发的关系分析系统。</li>
+                  <li>
+                      技术栈：React + Webpack + react-router + es6 + canvas
+                  </li>
+                </ul>
+              </div>
+            </div>
 
-          <!--经历:工作-->
-          <div class="item">
-            <header class="item-hd">
-              <h3 class="item-name">烽火通信科技有限公司(南京)</h3>
-              <span class="item-time">2016.07 至今</span>
-            </header>
-          </div>
-
-          <!--经历:在校-->
-          <div class="item">
-            <header class="item-hd">
-              <h3 class="item-name">南京邮电大学</h3>
-              <span class="item-time">2012.06 ~ 2016.06</span>
-              <a class="btn item-more" href="http://www.njupt.edu.cn/">在校</a>
-            </header>
-            <div class="item-bd">
-              <p class="item-des">在校期间多次获得奖学金，其中包括：</p>
-              <ul class="section-content">
-                <li>系综合奖学金一等奖</li>
-                <li>系综合奖学金三等奖</li>
-              </ul>
+            <div class="item">
+              <header class="item-hd">
+                <a class="btn">团购平台管理系统</a>
+              </header>
+              <div class="item-bd">
+                <ul>
+                  <li>基于React + react-router + antd + Webpack + es6实现的团购平台管理系统</li>
+                </ul>
+              </div>
+            </div>
+  
+            <div class="item">
+              <header class="item-hd">
+                <a class="btn">大屏演示页面</a>
+              </header>
+              <div class="item-bd">
+                <ul>
+                  <li>负责大屏演示项目（各种复杂echarts图表），以及部分页面动画特效的开发。</li>
+                  <li>
+                      技术栈：canvas + echarts + jQuery + requireJS + template + lodash + gulp
+                  </li>
+                </ul>
+              </div>
+            </div>
+  
+            <div class="item">
+              <header class="item-hd">
+                <a class="btn" href="javascript:;">个人项目</a>
+              </header>
+              <div class="item-bd">
+                <ul>
+                  <li>
+                    <a href="javascript:;">es6转译学习工具</a>
+                    利用react+babel实现ES6转译学习工具
+                  </li>
+                  <li>
+                    <a href="javascript:;">团购管理平台</a>
+                    基于create-react-app脚手架，使用antd组件开发的团购管理平台
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
+        </section>
+      </div>
+      <div class="content-right">
+        <section class="skill">
+          <header class="section-hd">
+            <span class="section-title-l"></span>
+            <h2 class="section-title">技能</h2>
+            <span class="section-title-r"></span>
+          </header>
+          <div class="section-bd">
+  
+            <!--技能:JS-->
+            <div class="item">
+              <header class="item-hd">
+                <span class="item-time">Web</span>
+                <a class="btn item-more">精通</a>
+              </header>
+              <div class="item-bd">
+                <ul class="section-content">
+                  <li>熟知JS基本语法与知识，掌握ES6语法</li>
+                  <li>熟练运用CSS，掌握CSS3新特性，了解SCSS等预处理器</li>
+                  <li>掌握前端框架jQuery、React</li>
+                  <li>掌握chrome开发调试技能与Git仓库使用</li>
+                  <li>熟悉运用echarts、three.js等组件，能实现动画特效，完成大屏演示页面</li>
+                </ul>
+              </div>
+            </div>
+  
+            <div class="item">
+              <header class="item-hd">
+                <span class="item-time">jQuery</span>
+                <a class="btn item-more">熟练</a>
+              </header>
+              <div class="item-bd">
+                <ul class="section-content">
+                  <li>熟练运用jQuery，了解jQuery部分原理</li>
+                  <li>基于jQuery实现组件封装开发</li>
+                </ul>
+              </div>
+            </div>
+  
+            <!--React-->
+            <div class="item">
+              <header class="item-hd">
+                <span class="item-time">React</span>
+                <a class="btn item-more">熟练</a>
+              </header>
+              <div class="item-bd">
+                <ul class="section-content">
+                  <li>用React开发复杂应用，了解React原理</li>
+                  <li>掌握React调试、性能优化、react-router等扩展技能</li>
+                </ul>
+              </div>
+            </div>
+  
+            <!--Webpack-->
+            <div class="item">
+              <header class="item-hd">
+                <span class="item-time">Gulp+Webpack</span>
+                <a class="btn item-more">熟练</a>
+              </header>
+              <div class="item-bd">
+                <ul class="section-content">
+                  <li>熟悉模块化编码，前端工程化。熟练运用构建工具（gulp）打包工具（webpack），略知原理。</li>
+                </ul>
+              </div>
+            </div>
+  
+            
+          </div>
+        </section>
+        <section class="practice">
+          <header class="section-hd">
+            <span class="section-title-l"></span>
+            <h2 class="section-title">经历</h2>
+            <span class="section-title-r"></span>
+          </header>
+          <div class="section-bd">
 
-      </section>
-      <section class="skill">
-        <header class="section-hd">
-          <span class="section-title-l"></span>
-          <h2 class="section-title">技能</h2>
-          <span class="section-title-r"></span>
-        </header>
-        <div class="section-bd">
+            <!--经历:工作-->
+            <div class="item">
+              <header class="item-hd">
+                <h3 class="item-name">烽火通信科技有限公司(南京)</h3>
+                <span class="item-time">2016.07 至今</span>
+                <a class="btn item-more" href="javascript:;">公司</a>
+              </header>
+            </div>
 
-          <!--技能:JS-->
-          <div class="item">
-            <header class="item-hd">
-              <span class="item-time">Web</span>
-              <a class="btn item-more">精通</a>
-            </header>
-            <div class="item-bd">
-              <ul class="section-content">
-                <li>熟知JS基本语法与知识，掌握ES6语法</li>
-                <li>熟练使用CSS、CSS3、SCSS</li>
-                <li>掌握前端流行框架React</li>
-                <li>掌握chrome开发调试技能与Git仓库使用</li>
-              </ul>
+            <!--经历:在校-->
+            <div class="item">
+              <header class="item-hd">
+                <h3 class="item-name">南京邮电大学</h3>
+                <span class="item-time">2012.06 ~ 2016.06</span>
+                <a class="btn item-more" href="http://www.njupt.edu.cn/">在校</a>
+              </header>
+              <div class="item-bd">
+                <p class="item-des">在校期间多次获得一等、三等奖学金</p>
+              </div>
             </div>
           </div>
 
-          <div class="item">
-            <header class="item-hd">
-              <span class="item-time">jQuery</span>
-              <a class="btn item-more">熟练</a>
-            </header>
-            <div class="item-bd">
-              <ul class="section-content">
-                <li>熟练运用jQuery，了解jQuery部分原理</li>
-                <li>基于jQuery实现组件封装开发</li>
-              </ul>
-            </div>
-          </div>
-
-          <!--React-->
-          <div class="item">
-            <header class="item-hd">
-              <span class="item-time">React</span>
-              <a class="btn item-more">熟练</a>
-            </header>
-            <div class="item-bd">
-              <ul class="section-content">
-                <li>用React开发复杂应用，了解React原理</li>
-                <li>掌握React调试、性能优化、react-router等扩展技能</li>
-              </ul>
-            </div>
-          </div>
-
-          <!--Webpack-->
-          <div class="item">
-            <header class="item-hd">
-              <span class="item-time">Gulp+Webpack</span>
-              <a class="btn item-more">熟练</a>
-            </header>
-            <div class="item-bd">
-              <ul class="section-content">
-                <li>熟悉模块化编码，前端工程化。熟练运用构建工具（gulp）打包工具（webpack），略知原理。</li>
-              </ul>
-            </div>
-          </div>
-
-          
-        </div>
-      </section>
-      <section class="project">
-        <header class="section-hd">
-          <span class="section-title-l"></span>
-          <h2 class="section-title">项目</h2>
-          <span class="section-title-r"></span>
-        </header>
-        <div class="section-bd">
-          以下是我的工作项目与总结：
-          <div class="item">
-            <header class="item-hd">
-              <a class="btn" href="javascript:;">图上作战项目</a>
-            </header>
-            <div class="item-bd">
-              <ul>
-                <li>采取前后端分离开发，基于开源GIS组件实现的类似百度地图系统功能。</li>
-                <li>技术栈：jQuery + gulp + requireJS + template + lodash </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="item">
-            <header class="item-hd">
-              <a class="btn">数据碰撞项目</a>
-            </header>
-            <div class="item-bd">
-              <ul>
-                <li>采取前后端分离开发的流程图数据管理系统。</li>
-                <li>基于开源jsPlumb组件封装了图组件，实现算子拖拽上图碰撞、缩略图、流程图布局等交互功能。</li>
-                <li>
-                    技术栈：jQuery + gulp + requireJS + template + lodash + svg
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="item">
-            <header class="item-hd">
-              <a class="btn">关系分析项目</a>
-            </header>
-            <div class="item-bd">
-              <ul>
-                <li>采取前后端分离开发的关系图分析系统。</li>
-                <li>结合react技术栈，基于开源组件Cytoscape开发的关系分析系统。</li>
-                <li>
-                    技术栈：React + Webpack + react-router + es6 + canvas
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="item">
-            <header class="item-hd">
-              <a class="btn">大屏演示页面</a>
-            </header>
-            <div class="item-bd">
-              <ul>
-                <li>负责大屏演示项目（各种复杂echarts图表），以及部分页面动画特效的开发。</li>
-                <li>
-                    技术栈：canvas + echarts + jQuery + requireJS + template + lodash + gulp
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="item">
-            <header class="item-hd">
-              <a class="btn" href="https://nodejs.org">开源项目</a>
-            </header>
-            <div class="item-bd">
-              <ul>
-                <li>
-                  <a href="https://github.com/EchoQ0Q/babel-time-travel">babel-time-travel</a>
-                  利用vue+babel实现ES6在线编译学习系统
-                </li>
-                <li>
-                  <a href="https://gitee.com/qq2330570757/prd">grd团购平台</a>
-                  基于React + Webpack + react-router + es6实现的平台管理系统
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
+        </section>
+      </div>
+      
   </div>
 </main>
 
